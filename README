@@ -1,0 +1,11 @@
+Before compiling your own kernel modules,
+you will need to have a kernel compiled from source
+from which to draw config/headers.
+
+On a Samsung 2 (Intel) chromebook, this can be done with:
+
+    cd chrubuntu-kernel
+    sudo ./update.sh 3.10.18
+
+This will add a symlinked `/lib/modules/build` folder to
+a made chromeos kernel.
